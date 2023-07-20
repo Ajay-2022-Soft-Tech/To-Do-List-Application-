@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="327dp"
+        android:layout_height="314dp"
+        app:cardCornerRadius="30dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="138dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="152dp"
+            android:layout_height="126dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="90dp"
+            app:srcCompat="@drawable/greencheckbox" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="150dp"
+            android:text="Thanks For Rating"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="190dp"
+            android:text="Have A WonderFul day"
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@+id/buttonCLose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Close"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="250dp"
+            android:backgroundTint="#6699FF"
+            android:textColor="@color/black"
+            />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
